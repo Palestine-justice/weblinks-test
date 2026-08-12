@@ -1,0 +1,27 @@
+:root{--ink:#172019;--muted:#5e6961;--paper:#f6f4ed;--card:#fff;--green:#17643a;--dark:#0d4126;--line:#d7ddd8;--sand:#fff7df}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--paper);line-height:1.55}
+.wrap{width:min(1160px,calc(100% - 32px));margin:auto}
+header{color:white;background:linear-gradient(125deg,#0d4126,#1f7044);padding:64px 0 52px;border-bottom:8px solid #b33a32}
+.kicker{text-transform:uppercase;letter-spacing:.14em;font-weight:700;font-size:.78rem;margin:0 0 8px}
+h1{font-size:clamp(2.3rem,6vw,4.8rem);line-height:1.02;margin:0}
+.subtitle{max-width:800px;font-size:1.12rem;color:#eef7f1;margin:18px 0 0}
+.notice{margin:-20px 0 30px;padding:18px 20px;background:var(--sand);border-left:5px solid #d09a24;border-radius:9px;box-shadow:0 8px 24px rgba(0,0,0,.08)}
+.controls{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:14px}
+label span{display:block;font-weight:700;font-size:.85rem;margin-bottom:5px}
+input,select{width:100%;min-height:46px;padding:10px 12px;border:1px solid var(--line);border-radius:8px;background:#fff;font:inherit}
+.resultsbar{display:flex;justify-content:space-between;align-items:center;margin:15px 0 18px}
+#count{color:var(--muted)}
+button{border:1px solid var(--green);background:transparent;color:var(--dark);border-radius:8px;padding:9px 13px;cursor:pointer}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px}
+.card{background:var(--card);border:1px solid var(--line);border-top:5px solid var(--green);border-radius:11px;padding:21px;display:flex;flex-direction:column;box-shadow:0 7px 20px rgba(24,40,29,.07)}
+.card h2{font-size:1.23rem;line-height:1.22;margin:0 0 8px}
+.card p{color:var(--muted);margin:0 0 15px}
+.meta{display:flex;gap:7px;flex-wrap:wrap;margin:auto 0 17px}
+.tag{font-size:.74rem;font-weight:700;border-radius:999px;padding:4px 8px;background:#e8f3ec;color:var(--dark)}
+.group{background:#f0ece3}
+.card a{align-self:flex-start;font-weight:700;color:var(--dark);text-underline-offset:3px}
+.empty{grid-column:1/-1;text-align:center;padding:35px;background:#fff;border:1px dashed var(--line);border-radius:10px}
+footer{background:var(--ink);color:#dfe7e1;padding:24px 0;margin-top:35px}
+@media(max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}.controls{grid-template-columns:1fr 1fr}}
+@media(max-width:620px){header{padding-top:46px}.grid,.controls{grid-template-columns:1fr}.resultsbar{align-items:flex-start;gap:10px}}

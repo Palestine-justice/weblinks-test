@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Palestine Media Directory</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header><div class="wrap">
+<p class="kicker">Independent resource directory</p>
+<h1>Palestine Media Directory</h1>
+<p class="subtitle">Media, journalism, human-rights organisations, campaigns, research and video channels relating to Palestine.</p>
+</div></header>
+
+<main class="wrap">
+<section class="notice"><strong>Directory note:</strong> Inclusion does not imply endorsement of every article, speaker or viewpoint. Readers should compare sources and assess evidence, transparency and corrections.</section>
+
+<section class="controls">
+<label><span>Search</span><input id="search" type="search" placeholder="Search names, descriptions or tags"></label>
+<label><span>Type</span><select id="typeFilter"><option value="">All types</option></select></label>
+<label><span>Group</span><select id="groupFilter"><option value="">All groups</option></select></label>
+<label><span>Sort</span><select id="sort"><option value="name">Name A–Z</option><option value="type">Type</option><option value="group">Group</option></select></label>
+</section>
+
+<div class="resultsbar"><p id="count"></p><button id="clear">Clear filters</button></div>
+<section id="cards" class="grid"></section>
+</main>
+
+<footer><div class="wrap">Assembled from the lists supplied on 4 August 2026.</div></footer>
+
+<script src="sites.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
