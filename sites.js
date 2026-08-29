@@ -458,6 +458,34 @@ const sites = [
   group: "News & Media",
   description: "Al Jazeera's Middle East news section, providing reporting and analysis on Palestine, Gaza, Israel and political developments across the wider region.",
   tags: ["Palestine", "Gaza", "Israel", "Middle East", "news", "analysis"]
+},
+
+{
+  name: "European Palestine Network",
+  url: "https://europeanpalestinenetwork.org",
+  type: "Advocacy & Campaign",
+  group: "Palestine Solidarity",
+  description: "European network supporting Palestinian rights and connecting advocacy, solidarity and campaigning initiatives across Europe.",
+  tags: ["Palestine", "Europe", "human rights", "advocacy", "solidarity", "campaigning"]
+},
+
+{
+  name: "India & Global Left",
+  url: "https://www.youtube.com/@IndiaGlobalLeft",
+  type: "YouTube Channel",
+  group: "Independent Media",
+  description: "Independent left-wing media platform featuring discussions, interviews and analysis of Indian and international politics, including Palestine and the Middle East.",
+  tags: ["India", "global politics", "Palestine", "left", "interviews", "analysis"]
+},
+
+{
+  name: "Association of International Development Agencies (AIDA)",
+  url: "https://aida-cso.org",
+  type: "NGO Network",
+  group: "Humanitarian & Human Rights",
+  description: "Coordination network of international NGOs working in the occupied Palestinian territory, supporting humanitarian and development work and advocating for the rights and protection of Palestinians.",
+  tags: ["Palestine", "Gaza", "humanitarian aid", "NGO", "development", "human rights"]
 }
+  
 
 ];
