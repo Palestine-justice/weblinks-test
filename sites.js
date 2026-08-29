@@ -480,7 +480,7 @@ const sites = [
 
 {
   name: "Association of International Development Agencies (AIDA)",
-  url: "https://aida-cso.org",
+  url: "https://aidajerusalem.org/",
   type: "NGO Network",
   group: "Humanitarian & Human Rights",
   description: "Coordination network of international NGOs working in the occupied Palestinian territory, supporting humanitarian and development work and advocating for the rights and protection of Palestinians.",
