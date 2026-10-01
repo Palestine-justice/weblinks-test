@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+
+<!-- ==================================================
+     SECTION 1 — PAGE SETUP / HEAD
+     Put page title, stylesheet links and other head items here.
+     ================================================== -->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Palestine Media Directory</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ==================================================
+     SECTION 2 — PAGE HEADER
+     Put heading/banner code here.
+     ================================================== -->
+<header><div class="wrap">
+<!-- HAMBURGER MENU -->
+<button class="menu-button" id="menuButton" aria-label="Open menu" aria-expanded="false">
+<span></span><span></span><span></span>
+</button>
+<nav class="main-menu" id="mainMenu">
+<a href="index.html">History overview</a>
+<a href="overview.html">Visual overview</a>
+<a href="https://palestine-justice.github.io/weblinks/" target="_blank" rel="noopener">Palestine Justice links</a>
+</nav>
+<p class="kicker">Independent resource directory</p>
+<h1>Palestine Media Directory</h1>
+<p class="subtitle">Media, journalism, human-rights organisations, campaigns, research and video channels relating to Palestine.</p>
+</div></header>
+
+<!-- ==================================================
+     SECTION 3 — MAIN CONTENT START
+     ================================================== -->
+<main class="wrap">
+
+<!-- ==================================================
+     SECTION 4 — DIRECTORY NOTICE
+     Put notice/information-box code here.
+     ================================================== -->
+<section class="notice"><strong>Directory note:</strong> Inclusion does not imply endorsement of every article, speaker or viewpoint. Readers should compare sources and assess evidence, transparency and correctness.</section>
+
+<!-- ==================================================
+     SECTION 5 — SEARCH / FILTER / SORT CONTROLS
+     Put new search or filter controls here.
+     ================================================== -->
+<section class="controls">
+<label><span>Search</span><input id="search" type="search" placeholder="Search names, descriptions or tags"></label>
+<label><span>Type</span><select id="typeFilter"><option value="">All types</option></select></label>
+<label><span>Group</span><select id="groupFilter"><option value="">All groups</option></select></label>
+<label><span>Sort</span><select id="sort"><option value="name">Name A–Z</option><option value="type">Type</option><option value="group">Group</option></select></label>
+</section>
+
+<!-- ==================================================
+     SECTION 6 — RESULTS BAR AND RESOURCE CARDS
+     Put code connected with displayed results/cards here.
+     ================================================== -->
+<div class="resultsbar"><p id="count"></p><button id="clear">Clear filters</button></div>
+<section id="cards" class="grid"></section>
+</main>
+
+<!-- ==================================================
+     SECTION 7 — FOOTER
+     Put footer code here.
+     ================================================== -->
+<footer><div class="wrap">Assembled from the lists supplied on 4 August 2026.</div></footer>
+
+<!-- ==================================================
+     SECTION 8 — WEBSITE JAVASCRIPT FILES
+     Put additional local JavaScript file links here.
+     ================================================== -->
+<script src="sites.js"></script>
+<script src="script.js"></script>
+
+<!-- ==================================================
+     SECTION 9 — GOATCOUNTER ANALYTICS
+     ================================================== -->
+<script data-goatcounter="https://palestine-justice.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js">
+</script>
+
+<!-- ==================================================
+     SECTION 10 — CLOUDFLARE WEB ANALYTICS
+     ================================================== -->
+<!-- Cloudflare Web Analytics -->
+<script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "90a6a1f27afb492b8741871558c626bf"}'>
+</script>
+<!-- End Cloudflare Web Analytics -->
+
+</body>
+</html>
